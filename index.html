@@ -1,98 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sai Abhishek Aravind</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sai Abhishek Aravind</title>
+  <meta name="description" content="Controls Engineer. Electrical and control systems. Research in hypersampled model predictive control." />
+  <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-    <header>
-        <h1>Sai Abhishek Aravind</h1>
-        <p>Graduate Student in Systems and Control</p>
-    </header>
+  <header class="site-header">
+    <h1>Sai Abhishek Aravind</h1>
+    <p class="tagline">Controls Engineer · Systems & Control</p>
 
-    <nav>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#publications">Publications</a>
-        <a href="#contact">Contact</a>
-    </nav>
+    <div class="quick-links">
+      <a href="https://www.linkedin.com/in/saiabhi28/" target="_blank">LinkedIn</a>
+      <span class="dot">·</span>
+      <a href="https://scholar.google.com/citations?user=ghTkVZcAAAAJ&hl=en" target="_blank">Google Scholar</a>
+      <span class="dot">·</span>
+      <a href="#contact">Contact</a>
+    </div>
+  </header>
 
-    <section id="about">
-        <h2></h2>
-        <div class="about-container">
-            <img src="your_picture.jpg" alt="Your Picture">
-            <p>Write a brief introduction about yourself, your research interests, and your academic background.</p>
-        </div>
+  <nav class="site-nav">
+    <a href="#about">About</a>
+    <a href="#research">Thesis</a>
+    <a href="#publications">Publications</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+
+    <section id="about" class="section">
+      <h2>About</h2>
+
+      <p>
+        I am a Controls Engineer working on industrial electrical and control systems for process automation and
+        CO<sub>2</sub> liquefaction plants. My interests lie in practical control implementation, system reliability,
+        and bridging rigorous control theory with real-world engineering constraints.
+      </p>
+
+      <p>
+        I hold a Master of Science in Electrical Engineering from the University of Colorado Boulder, specializing in
+        systems and control.
+      </p>
     </section>
 
-    <section id="projects">
-        <h2>Selected Projects</h2>
-        <div class="project-container">
-            <div class="project">
-                <img src="MPC.png" alt="HMPC">
-                <div class="project-description">
-                    <h3>Hypersampled Model Predictive Control</h3>
-                    <p>Description of Project 1.</p>
-                </div>
-            </div>
+    <section id="research" class="section">
+      <h2>Master’s Thesis</h2>
 
-            <div class="project">
-                <img src="reach.png" alt="Reach">
-                <div class="project-description">
-                    <h3>Reachability Analysis of Nonlinear Lane Change Model</h3>
-                    <p>Description of Project 1.</p>
-                </div>
-            </div>
+      <p class="thesis-title">
+        <strong>Influence of Discretization on Hypersampled Model Predictive Control</strong>
+      </p>
 
-            <div class="project">
-                <img src="covid.jpg" alt="COVID">
-                <div class="project-description">
-                    <h3>COVID 19 Public Screening System</h3>
-                    <p>Description of Project 2.</p>
-                </div>
-            </div>
-
-            <div class="project">
-                <img src="iot.png" alt="Project 1">
-                <div class="project-description">
-                    <h3>IoT based Control System for Home Automation</h3>
-                    <p>Description of Project 1.</p>
-                </div>
-            </div>
-
-            <div class="project">
-                <img src="project1.jpg" alt="Project 1">
-                <div class="project-description">
-                    <h3>Project 4</h3>
-                    <p>Description of Project 1.</p>
-                </div>
-            </div>
-
-            <div class="project">
-                <img src="project1.jpg" alt="Project 1">
-                <div class="project-description">
-                    <h3>Project 5</h3>
-                    <p>Description of Project 1.</p>
-                </div>
-            </div>
-            <!-- Add more projects as needed -->
-        </div>
+      <p class="abstract">
+        This thesis studies the capabilities of Hypersampled Model Predictive Control (HMPC), a new technique that aims
+        to reduce the computational cost of MPC by changing how the optimal control problem is discretized. The thesis
+        primarily focuses on understanding the influence of discretization on HMPC and experimenting with three
+        distinct discretization methods (schemes). Each scheme is characterized by varying the discretization time at
+        each step. These schemes influence how the controller predicts and reacts to changes, thereby affecting its
+        overall performance. The experiments are designed to provide insights into how each method impacts the
+        performance of HMPC, particularly in terms of accuracy, stability, and computational efficiency. The results
+        are expected to be crucial in determining the most effective approach to implementing HMPC in various practical
+        applications depending on system specifications.
+      </p>
     </section>
 
-    <section id="publications">
-        <h2>Publications</h2>
-        <p>List your publications with links to the papers or conference proceedings.</p>
+    <section id="publications" class="section">
+      <h2>Publications</h2>
+
+      <p>
+        A full list of publications and citations is available on
+        <a href="https://scholar.google.com/citations?user=ghTkVZcAAAAJ&hl=en" target="_blank">Google Scholar</a>.
+      </p>
     </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Provide your contact information. You may include an email address or links to your professional profiles on platforms like LinkedIn or ResearchGate.</p>
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+
+      <p>
+        The best way to reach me is via
+        <a href="https://www.linkedin.com/in/saiabhi28/" target="_blank">LinkedIn</a>.
+      </p>
+
+      <!-- Optional email block -->
+      <!--
+      <p>
+        Email: <a href="mailto:you@example.com">you@example.com</a>
+      </p>
+      -->
     </section>
 
-    <footer>
-        <p>&copy; 2023 Your Name. All rights reserved.</p>
-    </footer>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Sai Abhishek Aravind</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
