@@ -86,19 +86,21 @@ main{
 }
 
 /* HERO */
-.hero{
+.hero {
   margin: 0 0 18px;
-  border:1px solid var(--line);
-  border-radius:14px;
-  overflow:hidden;
-  background:var(--card);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  overflow: hidden;
+  background: var(--card);
 }
+
 .hero img{
   display:block;
   width:100%;
   height: 320px;
-  object-fit: contain;     /* fit full image */
-  background: #f3f4f6;     /* subtle neutral fill */
+  object-fit: contain !important;   /* force: no cropping */
+  object-position: center !important;
+  background: #f3f4f6;
 }
 
 .hero figcaption{
@@ -220,5 +222,6 @@ main{
   .photo img{ height: 240px; }
   .photo.wide img{ height: 240px; }
 }
+
 
 
